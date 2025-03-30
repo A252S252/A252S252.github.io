@@ -6,14 +6,15 @@
   <title>ポートフォリオ</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f9f9f9;
-      margin: 0;
-      padding: 1em;
-    }
+  font-family: sans-serif;
+  background: #2f2f2f;  /* ダークグレー */
+  color: #f0f0f0;        /* 文字色は明るく！ */
+  margin: 0;
+  padding: 1em;
+}
     h1 {
       text-align: center;
-      color: #333;
+      color: #ffffff;
     }
     .container {
       display: flex;
@@ -22,12 +23,14 @@
       gap: 1.5em;
     }
     .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 300px;
-      padding: 1em;
-    }
+  background: #3a3a3a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 300px;
+  padding: 1em;
+  color: #f0f0f0;
+}
+
     .card img {
       max-width: 100%;
       border-radius: 8px;
@@ -37,38 +40,34 @@
       margin: 0.5em 0;
     }
     .card p {
-      font-size: 0.95em;
-      color: #555;
-    }
+  color: #ccc;
+}
     .btns {
       display: flex;
       justify-content: space-between;
       margin-top: 1em;
     }
     .btns a {
-      background: #007acc;
-      color: white;
-      padding: 0.4em 1em;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 0.9em;
-    }
-    .btns a:hover {
-      background: #005ea0;
-    }
+  background: #007acc;
+  color: white;
+}
+.btns a:hover {
+  background: #005ea0;
+}
+
   </style>
 </head>
 <body>
-  <h1>まだ作成途中</h1>
+  <h1>ポートフォリオ/まだ作成途中</h1>
   <div class="container">
 
     <div class="card">
-      <img src="img/sample_game.png" alt="ゲームのサムネイル" />
+      <img src="img/pyxel_game.gif" alt="PyxelシューティングGIF" />
       <h2>Pyxelシューティング</h2>
       <p>Python×Pyxelで作成したシューティングゲームです。</p>
       <div class="btns">
         <a href="https://github.com/ユーザー名/リポジトリ名" target="_blank">GitHub</a>
-        <a href="https://ユーザー名.itch.io/ゲーム名" target="_blank">itch.io</a>
+        <!--<a href="https://ユーザー名.itch.io/ゲーム名" target="_blank">itch.io</a>-->
       </div>
     </div>
 
